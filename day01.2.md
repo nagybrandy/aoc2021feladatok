@@ -15,7 +15,7 @@ Ehelyett vegyük inkább az egymást követő hármasokat. Például az előző 
 269    F G H
 260      G H
 263        H
-´´´
+```
 
 Kezdjük először azzal, hogy összehasonlítjuk az első és második "hármasmérést". Az első első hármas adatait A-val jelöltük (199, 200, 208), az ő összegük 199+200"208=607. A második hármas méréseit B-vel jelölik, ezek összege 618. A második hármas méréseinek összege nagyobb, mint az első hármas méréseinek az összege, tehát az első összehasonlítás növekedés mutatott.
 
@@ -23,7 +23,7 @@ Most az lesz a feladatod, hogy megszámold, hogy hány hármasmérés mutat növ
 
 A fenti példában a hármasmérések összegei a következőképpen alakulnak:
 
-´´´
+```
 A: 607 (Nincs előző összeg)
 B: 618 (nőtt)
 C: 618 (nem változott)
@@ -32,8 +32,8 @@ E: 647 (nőtt)
 F: 716 (nőtt)
 G: 769 (nőtt)
 H: 792 (nőtt)
-´´´
+```
 
 Ebben a példában 5 összeg van, ami nagyobb mint az előző összeg.
 
-Az adatokban a hármasmérések összegével számolva hány hármasmérés mutat növekedést?
+**Az adatokban a hármasmérések összegével számolva hány hármasmérés mutat növekedést?**
