@@ -9,7 +9,7 @@ Az ösztöneid azt súgják, hogy ahhoz, hogy megmentsd a karáncsonyt, mind az 
 
 A rejtvények megfejtésével gyűjthetsz csillatokat. Az adventi naptár minden napján két rejtvényt kapsz; a második rejtvényhez akkor férsz hozzá, ha az elsőt már megoldottad. Minden rejtvény megoldása egy csillaghoz segít hozzá. Sok szerencsét! 
 Ahogy a tengeralattjáró az óceán felszíne alá merül, automatikusan feltérképezi a szonárral az óceánfenéket a környéken. Egy kis kijelzőn jelenik meg a szonár eredménye (ez a rejtvény inputja): minden sor az óceán fenekének mélységét mutatja a tengeralattjárótól távolodva.
-
+```
 Például, tegyük fel, hogy a következőt olvasod a kijelzőn:
 199
 200
@@ -21,14 +21,14 @@ Például, tegyük fel, hogy a következőt olvasod a kijelzőn:
 269
 260
 263
-
+```
 
 Ez azt mutatja, hogy a tengeralattjárótól távolodva a szonár szerint a mélység 199, 200, 208, 210 stb.
 
 Először azt kellene kitaláni, hogy a mélység milyen gyorsan mélyül, csak hogy tudd, mivel állsz szemben -- ki tudja, lehet, hogy a kulcsokat egy áramlat mélyebbre vitte, vagy felkapta és elvitte egy hal vagy mit tudom én.
 
 Ehhez számold meg, hogy hányszor emelkedik a mélység az előző méréshez képest! (Az első mérés előtt nincs előző mérés.) A fenti példában ez a következőképpen nézne ki:
-
+```
 199 (nincs előző mérés)
 200 (nőtt)
 208 (nőtt)
@@ -39,8 +39,8 @@ Ehhez számold meg, hogy hányszor emelkedik a mélység az előző méréshez k
 269 (nőtt)
 260 (csökkent)
 263 (nőtt)
-
+```
 
 Itt 7 mérés lenne, ami nagyobb mint az előző mérés.
 
-Hány mérés van, ami nagyobb, mint az előző?
+*Hány mérés van, ami nagyobb, mint az előző?*
