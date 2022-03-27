@@ -1,0 +1,46 @@
+1. Szonáris szimatolás
+===============
+
+Épp a tengeren hánykolódtál egy hajón és a magad dolgával törődtél, mikor felharsan a fedélzeti riadó! Rohansz is, hogy megnézd, tudsz-e valakinek segíteni. Úgy tűnik, hogy az egyik manó megbotlott és a szán kulcsát beejtette az óceánba.
+
+Mielőtt észbe kapsz, már egy tengeralattjáróban is találod magad, amit a manók pontosan az ilyen szituációkra tartanak készenlétben. Karácsonyi égősor borítja (mert mi más is borítaná) és van rajta egy kísérleti antenna, ami elméletileg alkalmas arra, hogy megtaláld vele a kulcsot, ha eléggé felerősíted az antenna jelét; egy kis mérő is mutatja az antenna jelerősségét, az egységeket pedig csillagok jelölik 0-tól 50-ig.
+
+Az ösztöneid azt súgják, hogy ahhoz, hogy megmentsd a karáncsonyt, mind az 50 csillagot össze kell gyűjtened december 25-éig.
+
+A rejtvények megfejtésével gyűjthetsz csillatokat. Az adventi naptár minden napján két rejtvényt kapsz; a második rejtvényhez akkor férsz hozzá, ha az elsőt már megoldottad. Minden rejtvény megoldása egy csillaghoz segít hozzá. Sok szerencsét! 
+Ahogy a tengeralattjáró az óceán felszíne alá merül, automatikusan feltérképezi a szonárral az óceánfenéket a környéken. Egy kis kijelzőn jelenik meg a szonár eredménye (ez a rejtvény inputja): minden sor az óceán fenekének mélységét mutatja a tengeralattjárótól távolodva.
+
+Például, tegyük fel, hogy a következőt olvasod a kijelzőn:
+199
+200
+208
+210
+200
+207
+240
+269
+260
+263
+
+
+Ez azt mutatja, hogy a tengeralattjárótól távolodva a szonár szerint a mélység 199, 200, 208, 210 stb.
+
+Először azt kellene kitaláni, hogy a mélység milyen gyorsan mélyül, csak hogy tudd, mivel állsz szemben -- ki tudja, lehet, hogy a kulcsokat egy áramlat mélyebbre vitte, vagy felkapta és elvitte egy hal vagy mit tudom én.
+
+Ehhez számold meg, hogy hányszor emelkedik a mélység az előző méréshez képest! (Az első mérés előtt nincs előző mérés.) A fenti példában ez a következőképpen nézne ki:
+
+199 (nincs előző mérés)
+200 (nőtt)
+208 (nőtt)
+210 (nőtt)
+200 (csökkent)
+207 (nőtt)
+240 (nőtt)
+269 (nőtt)
+260 (csökkent)
+263 (nőtt)
+
+
+Itt 7 mérés lenne, ami nagyobb mint az előző mérés.
+
+Hány mérés van, ami nagyobb, mint az előző?
