@@ -1,5 +1,4 @@
-1. Szonáris szimatolás
-===============
+# Szonáris szimatolás
 
 Épp a tengeren hánykolódtál egy hajón és a magad dolgával törődtél, mikor felharsan a fedélzeti riadó! Rohansz is, hogy megnézd, tudsz-e valakinek segíteni. Úgy tűnik, hogy az egyik manó megbotlott és a szán kulcsát beejtette az óceánba.
 
@@ -45,6 +44,6 @@ Ehhez számold meg, hogy hányszor emelkedik a mélység az előző méréshez k
 
 Itt 7 mérés lenne, ami nagyobb mint az előző mérés.
 
-*Hány mérés van, ami nagyobb, mint az előző?*
+**Hány mérés van, ami nagyobb, mint az előző?**
 
 Fordítás: Molnár Attila
