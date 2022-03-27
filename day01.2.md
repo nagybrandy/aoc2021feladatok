@@ -36,4 +36,4 @@ H: 792 (nőtt)
 
 Ebben a példában 5 összeg van, ami nagyobb mint az előző összeg.
 
-**Az adatokban a hármasmérések összegével számolva hány hármasmérés mutat növekedést?**
+Az adatokban a hármasmérések összegével számolva hány hármasmérés mutat növekedést?
